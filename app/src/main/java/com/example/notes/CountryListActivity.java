@@ -29,7 +29,7 @@ public class CountryListActivity extends AppCompatActivity {
         setContentView(R.layout.fragment_emp_list);
         dbManager = new DBManager( this );
         dbManager.open();
-        Cursor cursor = dbManager.fetch();
+        Cursor cursor = dbManager.fetch( LoginActivity.idd );
         listView = findViewById(R.id.list_view) ;
         listView.setEmptyView(findViewById(R.id.empty));
         adapter = new SimpleCursorAdapter( this , R.layout.activity_view_record , cursor ,
@@ -61,7 +61,6 @@ public class CountryListActivity extends AppCompatActivity {
 
             }
         });
-
 
     }
 

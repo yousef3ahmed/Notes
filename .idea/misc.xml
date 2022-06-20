@@ -3,6 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/drawable-v24/border.xml" value="0.1" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/drawable/border.xml" value="0.1115" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/drawable/edittextbackground.xml" value="0.1115" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1115" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_add_country.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_add_country2.xml" value="0.11693548387096774" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_modify_country.xml" value="0.2351851851851852" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_modify_country2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/layout/activity_view_record.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes (2)/notes/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1115" />
+        <entry key="..\:/Users/Wegdan/Downloads/notes/notes/app/src/main/res/xml/preference.xml" value="0.25416666666666665" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_add_country.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_add_country2.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_home.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_login.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_modify_country.xml" value="0.22" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_modify_country2.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/activity_view_record.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/layout/fragment_emp_list.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/menu/main.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/menu/my_menu.xml" value="0.209375" />
+        <entry key="..\:/collage/level 3/Term2/Android/finalll/notes/app/src/main/res/xml/preference.xml" value="0.209375" />
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/drawable/edittextbackground.xml" value="0.1605" />
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/layout/activity_add_country.xml" value="0.17239583333333333" />
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/layout/activity_home.xml" value="0.1375" />
@@ -11,7 +37,19 @@
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/layout/activity_modify_country.xml" value="0.11302083333333333" />
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/layout/activity_view_record.xml" value="0.11302083333333333" />
         <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/layout/fragment_emp_list.xml" value="0.25" />
-        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/menu/main.xml" value="0.16510416666666666" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/menu/menu.xml" value="0.33" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/menu/my_menu.xml" value="0.22" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/menu/setting.xml" value="0.25" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/xml/preference.xml" value="0.25" />
+        <entry key="..\:/collage/level 3/Term2/Android/notes/app/src/main/res/xml/preferences.xml" value="0.1" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/layout/activity_add_country.xml" value="0.21" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/layout/activity_add_country2.xml" value="0.22" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/layout/activity_login.xml" value="0.140625" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/layout/activity_modify_country.xml" value="0.15" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/layout/activity_modify_country2.xml" value="0.22" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/menu/my_menu.xml" value="0.1" />
+        <entry key="..\:/collage/level 3/Term2/Android/prrrrrrrrroject/notes/app/src/main/res/xml/preference.xml" value="0.209375" />
       </map>
     </option>
   </component>

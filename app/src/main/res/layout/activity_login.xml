@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sgin In"
+        android:text="Sign In"
         android:textSize="50dp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -24,13 +24,15 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:id="@+id/username1"
-        android:hint="User name"
+        android:hint=" User name"
         android:textSize="27dp"
         android:textColorHint="@color/black"
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="38dp"
-        android:paddingLeft="28dp"
-
+        android:paddingLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
         ></EditText>
 
     <EditText
@@ -42,21 +44,25 @@
         android:textColorHint="@color/black"
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="38dp"
-        android:paddingLeft="28dp"
-
+        android:paddingLeft="12dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
         ></EditText>
 
 
 
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:id="@+id/sginin1"
-        android:text="Sgin in"
+        android:text="Sign in"
         android:textSize="20sp"
         android:backgroundTint="@color/black"
         android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        android:drawableEnd="@drawable/ic_arrow_right_24"
         ></Button>
 
 

@@ -1,10 +1,13 @@
 package com.example.notes;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,7 +15,7 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-
+    public  static  int idd ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +39,9 @@ public class LoginActivity extends AppCompatActivity {
                 else{
                     Boolean chkUserandPass = DB.checkusernameANDpassword( user , pass ) ;
                     if( chkUserandPass == true ){
+
+                         idd = DB.GetId( user ) ;
+                        Toast.makeText(LoginActivity.this , "User id" + idd , Toast.LENGTH_SHORT).show();
                         Toast.makeText(LoginActivity.this , "Login Done" , Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(getApplicationContext() , CountryListActivity.class) ;
                         startActivity( intent );
@@ -49,4 +55,25 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.my_menu, menu);
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        switch (item.getItemId()) {
+            case R.id.settings:
+                Intent i = new Intent(this, Preference.class);
+                startActivity(i);
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
 }

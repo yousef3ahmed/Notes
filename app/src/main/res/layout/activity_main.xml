@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sgin Up"
+        android:text="Sign Up"
         android:textSize="50dp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -30,7 +30,9 @@
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="38dp"
         android:paddingLeft="28dp"
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableStart="@drawable/ic_baseline_person_24"
 ></EditText>
 
     <EditText
@@ -43,7 +45,9 @@
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="38dp"
         android:paddingLeft="28dp"
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:drawableStart="@drawable/ic_baseline_lock_24"
         ></EditText>
 
     <EditText
@@ -56,22 +60,24 @@
         android:background="@drawable/edittextbackground"
         android:layout_marginBottom="38dp"
         android:paddingLeft="28dp"
-
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         ></EditText>
 
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:id="@+id/sginup"
         android:text="register"
         android:textSize="20sp"
         android:backgroundTint="@color/black"
         android:layout_marginBottom="5dp"
+       android:layout_gravity="center"
+        android:drawableEnd="@drawable/ic_arrow_right_24"
         ></Button>
-
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:id="@+id/signin"
         android:text="alraedy have account"
@@ -79,6 +85,9 @@
         android:textColor="@color/white"
         android:backgroundTint="@color/black"
         android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
         ></Button>
 
 

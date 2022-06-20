@@ -26,18 +26,20 @@ public class DBManager {
         dpHelper.close();
     }
 
-    public void insert( String name , String desc ){
+    public void insert( String name , String desc , int key_ ){
         ContentValues contentValues = new ContentValues(  );
         contentValues.put(DBHelper.SUBJECT , name);
         contentValues.put(DBHelper.DESC , desc);
+        contentValues.put( DBHelper.KEY ,key_  );
+
         database.insert(DBHelper.TABLE_NAME , null , contentValues);
     }
 
-    public  Cursor fetch(  ){
-        String[] colums = new String[]{ DBHelper._ID , DBHelper.SUBJECT , DBHelper.DESC } ;
+    public  Cursor fetch( int _id ){
+        String[] colums = new String[]{ DBHelper._ID , DBHelper.SUBJECT , DBHelper.DESC , DBHelper.KEY } ;
         Cursor cursor = database.query( DBHelper.TABLE_NAME ,
-                colums ,
-                null ,
+                colums,
+                DBHelper.KEY +" = "+ _id ,
                 null ,
                 null ,
                 null ,

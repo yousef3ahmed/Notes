@@ -14,22 +14,24 @@ public class DBHelper extends SQLiteOpenHelper {
     public  static final  String DBNAME = "login.db"  ;
 
     public  static final  String TABLE_NAME = "COUNTRIES" ;
+
     // table columns for notes ;
     public  static final  String _ID = "_id" ;
+    public static  final  String KEY = "_key_" ;
     public  static final  String SUBJECT = "subject" ;
     public  static final  String DESC = "description" ;
     public  static final  String CREATE_TABLE = "create table " +
             TABLE_NAME + "(" + _ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " + SUBJECT
-            +" TEXT NOT NULL, " + DESC + " TEXT);" ;
+            +" TEXT NOT NULL, " + DESC + " TEXT , _key_ INTEGER  );" ;
 
 
     public DBHelper( Context context) {
-        super(context, "login.db", null, 1);
+        super(context, "login.db", null, 2);
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL("create table users(username TEXT primary key ,password TEXT)");
+        db.execSQL("create table users(id INTEGER PRIMARY KEY AUTOINCREMENT  , username TEXT  ,password TEXT)");
         db.execSQL( CREATE_TABLE );
     }
 
@@ -68,8 +70,16 @@ public class DBHelper extends SQLiteOpenHelper {
         else return false ;
     }
 
+    public int GetId(String currentNote) {
+        SQLiteDatabase myDB = this.getWritableDatabase();
+        Cursor getNoteId = myDB.rawQuery("select id from users where username = '"+currentNote+"'",null);
+        int HH = getNoteId.getPosition() ;
+        if (getNoteId != null && getNoteId.moveToFirst() ) {
+            return getNoteId.getInt(0) ;
+        }
 
-
+        return  -1 ;
+    }
 
 
 
